@@ -12,3 +12,16 @@ Added README and CHANGELog
 Setup of folders 
 installation of needed packages.
 
+
+## [1.0.01] - 2025-02-09
+
+### Added
+Installed Tailwind and FontAwesome
+Initial creation of the front page.
+
+
+#### What's Next
+Create the actual input of music choice by User.
+Linkage to backend
+Add Spotify Api?
+

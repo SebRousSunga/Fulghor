@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lilita+One&family=Vend+Sans:ital,wght@0,300..700;1,300..700&display=swap');
+@import "tailwindcss";
+
+@theme{
+  --font-header: "Inter",'sans-serif';
+  --font-test: "Lilita One","sans-serif";
+  --font-vens: "Vend Sans", "sans-serif";
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -66,3 +75,4 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
