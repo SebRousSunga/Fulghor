@@ -1,5 +1,6 @@
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {Link} from "react-router-dom"
 
 function Starter(){
     return (
@@ -10,11 +11,10 @@ function Starter(){
                  <p className="mt-10 font-inter bolded text-3xl border-t-5 mb-10 p-5">Find new music similar to your tastes: by song, album, band, or genre.</p>
                   
                   <div className="bg-red-500 w-50 h-50 m-auto rounded-[50%]  p-0 m-0 hover:animate-spin">
-                 <a href="https://themurlocs.bandcamp.com/" id="link" className="hover:animate-pulse w-[100%] h-[100%] rounded-full inline-block bg-white"> 
+                  <Link to="/choice"  className="hover:animate-pulse w-[100%] h-[100%] rounded-full inline-block bg-white">
                    
                     <FontAwesomeIcon icon="music" className="text-black mt-15 mr-2 text-7xl"/>
-                     
-                 </a>
+                 </Link>
                  </div>
                  <p className="font-inter text-2xl mt-2 p-5">Click to begin your search.</p>
           </div>
